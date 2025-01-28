@@ -50,7 +50,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Phani"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -104,7 +104,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat1}
-										alt="Alvalens"
+										alt="Phani"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -128,7 +128,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg ">
 									<Image
 										src={ReactChat3}
-										alt="Alvalens"
+										alt="Phani"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -154,7 +154,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat2}
-										alt="Alvalens"
+										alt="Phani"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -178,16 +178,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Generative Trivia
+							CareerVision
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							A generative trivia website built with Next.js,
-							Firebase, NextAuth, Google OAuth, and TypeScript.
-							Users can generate trivia questions for predefined
-							school subjects and answer them with a unique
-							interactive input style. The application supports
-							user authentication with Google and stores data in
-							Firestore. You can see the source code of this
+						    An AI-Enhanced Career Guidance System for Personalized Career Pathways leverages artificial intelligence to provide tailored career recommendations by analyzing users strengths, interests, academic backgrounds, and goals. It identifies skill gaps and suggests relevant certifications, courses, or training to bridge those gaps while offering real-time insights into job market trends, in-demand skills, and industry growth. By integrating psychometric assessments, resume analysis, and predictive algorithms, the system empowers users to make informed career decisions and navigate pathways aligned with their potential, passions, and market opportunities.. You can see the source code of this
 							project on my github account or preview the project
 							by clicking the button below.
 						</p>{" "}
@@ -197,7 +191,7 @@ export default function Page() {
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://generative-trivia.vercel.app/"
+									href="https://careervision2.netlify.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
@@ -277,7 +271,7 @@ export default function Page() {
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
 					<Button variation="primary">
-						<Link href="projects/archive">View In Archive</Link>
+						<Link href="projects/archive"></Link>
 					</Button>
 				</motion.div>
 			</main>

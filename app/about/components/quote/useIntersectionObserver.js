@@ -1,4 +1,3 @@
-// useIntersectionObserver.js
 import { useEffect, useState, useRef } from "react";
 
 export function useIntersectionObserver() {
@@ -6,6 +5,8 @@ export function useIntersectionObserver() {
 	const ref = useRef(null);
 
 	useEffect(() => {
+		const currentRef = ref.current; // Copy ref.current to a local variable
+
 		const observer = new IntersectionObserver(
 			([entry]) => {
 				setIsIntersecting(entry.isIntersecting);
@@ -17,16 +18,16 @@ export function useIntersectionObserver() {
 			}
 		);
 
-		if (ref.current) {
-			observer.observe(ref.current);
+		if (currentRef) {
+			observer.observe(currentRef);
 		}
 
 		return () => {
-			if (ref.current) {
-				observer.unobserve(ref.current);
+			if (currentRef) {
+				observer.unobserve(currentRef); // Use the local variable for cleanup
 			}
 		};
-	}, []);
+	}, []); // The dependency array remains empty as the observer logic doesn't depend on external values.
 
 	return [ref, isIntersecting];
 }

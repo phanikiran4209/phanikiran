@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import Me4 from "@/public/image/me4.jpeg";
+import Me4 from "@/public/image/me4.jpg";
 
 function Wrapper({ children }) {
 	return (
@@ -48,10 +48,10 @@ export default function Education() {
 							</div>
 							<div>
 								<h2 className="font-semibold text-xl">
-									Universitas Negeri Malang
+									vasireddy venkatadri institute of technology
 								</h2>
 								<h3 className="text-md font-normal mb-3">
-									S1 Teknik Informatika | Computer Science
+								Artificial Intelligence and Machine Learning | Computer Science
 								</h3>
 								<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -87,7 +87,7 @@ export default function Education() {
 										Aspiring to be a software engineer, I am
 										currently pursuing a bachelor&rsquo;s
 										degree in computer science at
-										Universitas Negeri Malang. Fascinated by
+										Vasireddy Venkatadri institute of technology Fascinated by
 										the world of technology, I am eager to
 										learn and explore new things in the
 										field of computer science.
@@ -96,7 +96,7 @@ export default function Education() {
 								{/* add gpa in a style */}
 								<div className="flex flex-wrap gap-2 mt-4 text-sm">
 									<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-										GPA: 3.9 out of 4
+										CGPA: 7.8 out of 10
 									</div>
 								</div>
 							</div>
@@ -121,8 +121,7 @@ export default function Education() {
 										Opportunity
 									</h3>
 									<p className="text-sm">
-										Indonesia Inventor Day 2024 (IID) | Aug
-										2024
+										NSS Head
 									</p>
 								</div>
 							</div>
@@ -138,8 +137,7 @@ export default function Education() {
 										3rd place (Bronze Medal)
 									</h3>
 									<p className="text-sm">
-										Student Digital Innovation Competition
-										(LIDM) | Jun 2024
+										Student Digital Innovation Competition | Jun 2024
 									</p>
 								</div>
 							</div>
@@ -155,7 +153,7 @@ export default function Education() {
 										3rd place (Bronze Medal)
 									</h3>
 									<p className="text-sm">
-										Fesmaro UI/UX Design | Jun 2024
+										SRM UI/UX Design | Jun 2024
 									</p>
 								</div>
 							</div>
@@ -167,10 +165,9 @@ export default function Education() {
 									/>
 								</div>
 								<div>
-									<h3 className="font-medium">Finalist</h3>
+									<h3 className="font-medium">Shortlisted</h3>
 									<p className="text-sm">
-										36th National Student Science Week
-										(PIMNAS) | Nov 2023
+										2024 Smart India Hackathon | Nov 2023
 									</p>
 								</div>
 							</div>
@@ -186,8 +183,8 @@ export default function Education() {
 										3rd place (Bronze Medal)
 									</h3>
 									<p className="text-sm">
-										FORKAFEST 3.0 Web Development
-										competition | Jan 2023
+										MahotsavFEST 3.0 Web Development
+										competition at Vignan University | Jan 2024
 									</p>
 								</div>
 							</div>

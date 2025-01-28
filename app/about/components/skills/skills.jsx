@@ -55,7 +55,7 @@ export default function Skills() {
 						<div className="flex flex-col items-center gap-2">
 							<MobileIcon className="w-12 h-12" />
 							<div className="font-medium">
-								Mobile Development
+							Cybersecurity
 							</div>
 						</div>
 						{/* <div className="flex flex-col items-center gap-2">

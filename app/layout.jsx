@@ -8,12 +8,12 @@ import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-	title: "Alvalens | Portofolio",
+	title: "Phani| Portofolio",
 	description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
-	author: "Alvalen Shafelbilyunazra",
-	siteUrl: "https://www.alvalens.my.id",
-	applicationName: "Alvalens",
+		"My name is Phani, I'm a web developer and I'm passionate about it. I'm currently studying at vasireddy venkatadri institute of technology.",
+	author: "Phanikiran",
+	siteUrl: "https://www.phani.my.id",
+	applicationName: "Phani",
 	keywords: [
 		"alvalens",
 		"alvalen",
@@ -27,19 +27,19 @@ export const metadata = {
 	],
 	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://www.Phani.my.id",
+		title: "Phani | Portofolio",
+		site_name: "Phani | Portofolio",
+		description: "My name is Phani, This is my portofolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Phani Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Phani | Portofolio",
 	},
 };
 

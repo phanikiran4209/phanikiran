@@ -63,13 +63,13 @@ export default function Experience() {
 			<Wrapper>
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2023 - Present</div>
+					<div className="font-medium text-lg">2024 - present</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
-							PT Hafdzamedia Teknologi Aplikasi
+							Emcomserv Pvt Lmt
 						</h3>
 						<h4 className=" font-light text-md mb-4">
-							Fullstack Web Developer | Part-time
+							Web Developer intern | Full time
 						</h4>
 						<p className="text-justify">
 							Responsible for building and maintaining scalable
@@ -86,7 +86,7 @@ export default function Experience() {
 								Next.js
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Laravel
+								python
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
 								MySql
@@ -96,13 +96,13 @@ export default function Experience() {
 				</div>
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2024 - Present</div>
+					<div className="font-medium text-lg">2024 </div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
-							Outlier
+							Learning
 						</h3>
 						<h4 className=" font-light text-md mb-4">
-							AI Trainer | Freelance
+							Chatbot Engineer | Internship
 						</h4>
 						<p className="text-justify">
 							Crafted and refined chatbot prompts using prompt
@@ -126,7 +126,7 @@ export default function Experience() {
 				</div>
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2023 - Present</div>
+					<div className="font-medium text-lg">2023</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
 							Self-Employed
@@ -136,7 +136,7 @@ export default function Experience() {
 						</h4>
 						<p className="text-justify">
 							Specialized in crafting innovative solutions using
-							Laravel and Next.js, enhancing client satisfaction
+							React and Next.js, enhancing client satisfaction
 							and project efficiency. Contributed expertise in
 							both frontend and backend development during
 							collaborative team projects, leading to successful
@@ -150,7 +150,7 @@ export default function Experience() {
 								Next.js
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Laravel
+								python
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
 								MySql

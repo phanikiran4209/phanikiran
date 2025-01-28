@@ -1,11 +1,11 @@
 // components/Intelliticks.js
-"use client"
+"use client";
 import { useEffect } from "react";
 
 // Component for Intelliticks chat widget
 const Chat = () => {
 	useEffect(() => {
-		// Paste the Intelliticks script here
+		// Paste the updated Intelliticks script here
 		(function (I, L, T, i, c, k, s) {
 			if (I.iticks) return;
 			I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
@@ -24,7 +24,7 @@ const Chat = () => {
 			document,
 			"script",
 			"https://app.intelliticks.com",
-			"u3cWw3sDpdKexqXCY_c",
+			"B8NWfCe9HHwzCS8i9_c",
 			{}
 		);
 	}, []);

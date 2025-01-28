@@ -108,10 +108,10 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Phani Kiran
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Phani Kiran, a
 						<span className="text-black font-medium">
 							{" "}
 							tech enthusiast
@@ -121,15 +121,15 @@ export default function About() {
 							{" "}
 							aspiring Web Developer.
 						</span>{" "}
-						Originating from Pasuruan, East Java, Indonesia,
+						Originating from NUZVID, Andhra Pradesh, India,
 						I&rsquo;m currently embarking on a fascinating journey
 						at{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang,
+							Vasireddy Venkatadri Institute of Technology,
 						</span>{" "}
 						where I&rsquo;m pursuing my degree in{" "}
 						<span className="text-black font-medium">
-							Informatics Engineering.
+							Computer Science with Artificial Intelligence & Machine Learning.
 						</span>{" "}
 						My passion for technology and coding knows no bounds.
 						Beyond the world of coding, I find myself deeply
