@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import Me4 from "@/public/image/me4.jpg";
+import College from "@/public/image/college.jpg";
+import Google from "@/public/image/google.jpg";
 
 function Wrapper({ children }) {
 	return (
@@ -56,7 +58,7 @@ export default function Education() {
 								<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
 										<Image
-											src={Me4}
+											src={College}
 											width={400}
 											height={225}
 											alt="University"
@@ -74,7 +76,7 @@ export default function Education() {
 									</div>
 									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
 										<Image
-											src={Me4}
+											src={Google}
 											width={400}
 											height={225}
 											alt="University"
