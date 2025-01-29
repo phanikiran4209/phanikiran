@@ -51,7 +51,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Phani"
 												placeholder="blur"
 											/>
 										</div>
@@ -128,7 +128,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Phani"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -160,7 +160,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="Phani"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -229,7 +229,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Phani Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -302,7 +302,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Phani Setup"
 											placeholder="blur"
 										/>
 									</motion.div>

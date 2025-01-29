@@ -15,7 +15,7 @@ export const metadata = {
 	siteUrl: "https://www.phani.my.id",
 	applicationName: "Phani",
 	keywords: [
-		"alvalens",
+		"Phani",
 		"alvalen",
 		"alvalen shafel",
 		"shafel",

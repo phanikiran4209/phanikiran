@@ -23,7 +23,7 @@ export default function projectCard({project, index, activeCategory}){
 						{/* Add relative here */}
 						<Image
 							src={project.thumbnail}
-							alt="Alvalens"
+							alt="Phani"
 							layout="fill"
 							objectFit="cover"
 							placeholder="blur"
