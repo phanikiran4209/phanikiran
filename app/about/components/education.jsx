@@ -123,7 +123,7 @@ export default function Education() {
 										Opportunity
 									</h3>
 									<p className="text-sm">
-										NSS Head
+										
 									</p>
 								</div>
 							</div>
@@ -155,7 +155,7 @@ export default function Education() {
 										3rd place (Bronze Medal)
 									</h3>
 									<p className="text-sm">
-										SRM UI/UX Design | Jun 2024
+									 UI/UX Design | Jun 2024
 									</p>
 								</div>
 							</div>
@@ -180,7 +180,7 @@ export default function Education() {
 										className="text-white h-5 w-5"
 									/>
 								</div>
-								<div>
+								{/* <div>
 									<h3 className="font-medium">
 										3rd place (Bronze Medal)
 									</h3>
@@ -188,7 +188,7 @@ export default function Education() {
 										MahotsavFEST 3.0 Web Development
 										competition at Vignan University | Jan 2024
 									</p>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
